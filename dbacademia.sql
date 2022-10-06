@@ -29,6 +29,17 @@ senha varchar (10)
 
 );
 
+create table tbprodutos(
+
+codigo int,
+descricao varchar (150),
+valor decimal (9,2),
+dataEntrada date,
+horaEntrada time,
+quantidade decimal(9,2)
+
+);
+
 --visualisando db
 show databases;
 
@@ -38,3 +49,4 @@ show tables;
 --visualizando a estrutura do db
 desc tbfuncionario;
 desc tbusuarios;
+desc tbprodutos;
